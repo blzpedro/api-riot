@@ -56,9 +56,9 @@ export default function Home() {
             setJogadores(data.participants)
             setBans(data.bannedChampions)        
             if(data.gameMode === "CLASSIC"){
-                setTipoJogo("NORMAL GAME")
+                setTipoJogo("Tipo do Jogo: NORMAL GAME")
             } else{
-                setTipoJogo("RANKED GAME")
+                setTipoJogo("Tipo do Jogo: RANKED GAME")
             }
         })
         .catch(error => console.log('Erro ao buscar ', error));

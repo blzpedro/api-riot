@@ -8,11 +8,10 @@ export default ({index, summonerName, teamId}) => {
         blueSide = false;
     }
 
-    const side = blueSide ? (<span>Time azul</span>) : (<span>Time vermelho</span>);
+    const side = blueSide ? (<span>do time azul</span>) : (<span>do time vermelho</span>);
     
     return (
         <>
-            
             <p>Jogador {side}: {summonerName}</p>
         </>
     )

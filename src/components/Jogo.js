@@ -17,7 +17,7 @@ export default ({ tipoJogo, children }) => {
     return(
         <div>
             <div className={classes.Box}>
-                <p>Tipo do jogo: {tipoJogo}</p>
+                <p>{tipoJogo}</p>
                 {React.Children.map(children, child => {
                     return child
                 })}
