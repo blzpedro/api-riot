@@ -43,9 +43,13 @@ function checkStatus(response) {
  */
 
 // eslint-disable-next-line
-const token = '';
+const token = 'RGAPI-c3cb11ba-f52d-45b2-9a83-1b65f3bea607';
 
 export const apiClient = axios.create({
-    baseURL: 'https://reqres.in',
-    // headers: {'Authorization': `Bearer ${token}`},
+    baseURL: 'https://cors-anywhere.herokuapp.com/https://br1.api.riotgames.com',
+    headers: {
+        'Accept-Language': `en-US,en;q=0.9,pt;q=0.8`,
+        'User-AgentAccept-Language': `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36`,
+        'X-Riot-Token': `${token}`,
+    },
 });
