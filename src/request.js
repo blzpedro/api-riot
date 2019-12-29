@@ -46,8 +46,8 @@ function checkStatus(response) {
 const token = 'RGAPI-71388349-7492-4d82-90c1-5bb948f5bd27';
 
 export const apiClient = axios.create({
-    // baseURL: 'https://cors-anywhere.herokuapp.com/https://br1.api.riotgames.com',
-    baseURL: 'https://br1.api.riotgames.com',
+    baseURL: 'https://cors-anywhere.herokuapp.com/https://br1.api.riotgames.com',
+    // baseURL: 'https://br1.api.riotgames.com',
     headers: {
         'Accept-Language': `en-US,en;q=0.9,pt;q=0.8`,
         'User-AgentAccept-Language': `Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36`,
