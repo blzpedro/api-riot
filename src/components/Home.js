@@ -6,9 +6,10 @@ import {
     makeStyles,
 } from '@material-ui/core';
 import './index.css';
-import Jogo from './Jogo';
-import Jogadores from './Jogadores';
-import Banimentos from './Banimentos';
+import Jogo from './JogoPage/Jogo';
+import Jogadores from './JogadoresPage/Jogadores';
+import Banimentos from './BanimentosPage/Banimentos';
+import Header from '../utils/Header/Header'
 
 
 const useStyles = makeStyles(theme => ({
@@ -40,10 +41,10 @@ export default function Home() {
 
         await apiClient.get(url)
         .then(({ data }) => {
-            console.log('summoner', data)
+            // console.log('summoner', data)
             setEncryptedID(data.id)
         })
-        .catch(error => console.log('Erro ao buscar ', error));
+        .catch(error => console.log('Erro ao buscar invocador', error));
     }
 
     async function getActiveGame(){
@@ -52,7 +53,7 @@ export default function Home() {
 
         await apiClient.get(url)
         .then(({ data }) => {
-            console.log('game', data)
+            // console.log('game', data)
             setJogadores(data.participants)
             setBans(data.bannedChampions)        
             if(data.gameMode === "CLASSIC"){
@@ -61,12 +62,12 @@ export default function Home() {
                 setTipoJogo("Tipo do Jogo: RANKED GAME")
             }
         })
-        .catch(error => console.log('Erro ao buscar ', error));
+        .catch(error => console.log('Erro ao buscar jogo ativo', error));
     }
-
 
     return (
         <div className="box">
+            <Header/>
             <p className={classes.Title}>Veja sua partida ao vivo!</p>
             <div className={classes.Box}>
                 <TextField id="standard-basic" label="Digite seu nick" onChange={event => setNick(event.target.value)}/>
@@ -74,11 +75,12 @@ export default function Home() {
             </div>
             <Jogo 
                 tipoJogo={tipoJogo}>
-                {jogadores.length > 0 && jogadores.map(({index, summonerName, teamId}) => (
+                {jogadores.length > 0 && jogadores.map(({index, summonerName, teamId, championId}) => (
                     <Jogadores
                         key={index}   
                         summonerName={summonerName}  
-                        teamId={teamId}               
+                        teamId={teamId} 
+                        championId={championId}              
                     />
                 )) || ''}   
                 {bans.length > 0 && bans.map(({index, championId}) => (
