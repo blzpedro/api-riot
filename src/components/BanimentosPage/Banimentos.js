@@ -1,9 +1,19 @@
 import React from 'react';
+import champions from '../static/champions/champions_dictionary.json'
 
-export default ({index, championId}) => {
+export default ({index, championId}) => {   
+
+    var championName = "Erro"
+
+    champions.champions.map(x => {
+        if (x.key == championId) {
+            championName = x.champion;
+        }
+    });
+
     return (
         <>
-            <p>Banimento: campeão n°{championId}</p>
+            <p>Banimento: {championName}</p>
         </>
     )
 }
