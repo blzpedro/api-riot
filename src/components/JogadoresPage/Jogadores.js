@@ -1,5 +1,5 @@
 import React from 'react';
-import champions from '../static/champions/champions.json'
+import champions from '../static/champions/champions_dictionary.json'
 
 export default ({index, summonerName, teamId, championId}) => {
 
@@ -11,11 +11,11 @@ export default ({index, summonerName, teamId, championId}) => {
 
     const side = blueSide ? (<span>do time azul</span>) : (<span>do time vermelho</span>);
 
-    console.log("champions", champions.data)    
-
+    champions.champions.map(x => { if (x.key == championId) console.log(x.champion); })
+    
     return (
         <>
-            <p>Jogador {side}: {summonerName} <br/> Campeão: {championId}</p>
+            <p>Jogador {side}: {summonerName} <br/> Campeão: {}</p>
         </>
     )
 }

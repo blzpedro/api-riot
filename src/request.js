@@ -43,7 +43,7 @@ function checkStatus(response) {
  */
 
 // eslint-disable-next-line
-const token = 'RGAPI-c3cb11ba-f52d-45b2-9a83-1b65f3bea607';
+const token = 'RGAPI-71388349-7492-4d82-90c1-5bb948f5bd27';
 
 export const apiClient = axios.create({
     baseURL: 'https://cors-anywhere.herokuapp.com/https://br1.api.riotgames.com',
