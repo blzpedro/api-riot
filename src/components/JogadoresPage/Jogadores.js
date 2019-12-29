@@ -15,12 +15,13 @@ export default ({index, summonerName, teamId, championId}) => {
     console.log(`champions length: ${champions.champions.length}`)
     console.log(`champions head: ${champions.champions[0]}, ${champions.champions[2]}, ${champions.champions[3]}`)
     champions.champions.map(x => { if (x.key == championId) console.log(x.champion); })
-    var championName = champions.champions.map(x => {
+    var championName = 'not found';
+    champions.champions.map(x => {
         if (x.key == championId) {
             console.log(x);
-            return x.champion;
+            championName = x.champion;
         }
-    })[0];
+    });
     
     return (
         <>
