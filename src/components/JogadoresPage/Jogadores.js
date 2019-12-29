@@ -11,11 +11,20 @@ export default ({index, summonerName, teamId, championId}) => {
 
     const side = blueSide ? (<span>do time azul</span>) : (<span>do time vermelho</span>);
 
+    console.log(`championId: ${championId}`);
+    console.log(`champions length: ${champions.champions.length}`)
+    console.log(`champions head: ${champions.champions[0]}, ${champions.champions[2]}, ${champions.champions[3]}`)
     champions.champions.map(x => { if (x.key == championId) console.log(x.champion); })
+    var championName = champions.champions.map(x => {
+        if (x.key == championId) {
+            console.log(x);
+            return x.champion;
+        }
+    })[0];
     
     return (
         <>
-            <p>Jogador {side}: {summonerName} <br/> Campeão: {}</p>
+            <p>Jogador {side}: {summonerName} <br/> Campeão: {championName}</p>
         </>
     )
 }
