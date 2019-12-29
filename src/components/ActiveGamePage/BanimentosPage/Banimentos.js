@@ -1,5 +1,5 @@
 import React from 'react';
-import champions from '../static/champions/champions_dictionary.json'
+import champions from '../../static/champions/champions_dictionary.json'
 
 export default ({index, championId}) => {   
 
