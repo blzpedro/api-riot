@@ -1,0 +1,592 @@
+{
+    "champions": [
+        {
+            "champion": "Aatrox",
+            "key": "266"
+        },
+        {
+            "champion": "Ahri",
+            "key": "103"
+        },
+        {
+            "champion": "Akali",
+            "key": "84"
+        },
+        {
+            "champion": "Alistar",
+            "key": "12"
+        },
+        {
+            "champion": "Amumu",
+            "key": "32"
+        },
+        {
+            "champion": "Anivia",
+            "key": "34"
+        },
+        {
+            "champion": "Annie",
+            "key": "1"
+        },
+        {
+            "champion": "Aphelios",
+            "key": "523"
+        },
+        {
+            "champion": "Ashe",
+            "key": "22"
+        },
+        {
+            "champion": "AurelionSol",
+            "key": "136"
+        },
+        {
+            "champion": "Azir",
+            "key": "268"
+        },
+        {
+            "champion": "Bard",
+            "key": "432"
+        },
+        {
+            "champion": "Blitzcrank",
+            "key": "53"
+        },
+        {
+            "champion": "Brand",
+            "key": "63"
+        },
+        {
+            "champion": "Braum",
+            "key": "201"
+        },
+        {
+            "champion": "Caitlyn",
+            "key": "51"
+        },
+        {
+            "champion": "Camille",
+            "key": "164"
+        },
+        {
+            "champion": "Cassiopeia",
+            "key": "69"
+        },
+        {
+            "champion": "Chogath",
+            "key": "31"
+        },
+        {
+            "champion": "Corki",
+            "key": "42"
+        },
+        {
+            "champion": "Darius",
+            "key": "122"
+        },
+        {
+            "champion": "Diana",
+            "key": "131"
+        },
+        {
+            "champion": "Draven",
+            "key": "119"
+        },
+        {
+            "champion": "DrMundo",
+            "key": "36"
+        },
+        {
+            "champion": "Ekko",
+            "key": "245"
+        },
+        {
+            "champion": "Elise",
+            "key": "60"
+        },
+        {
+            "champion": "Evelynn",
+            "key": "28"
+        },
+        {
+            "champion": "Ezreal",
+            "key": "81"
+        },
+        {
+            "champion": "Fiddlesticks",
+            "key": "9"
+        },
+        {
+            "champion": "Fiora",
+            "key": "114"
+        },
+        {
+            "champion": "Fizz",
+            "key": "105"
+        },
+        {
+            "champion": "Galio",
+            "key": "3"
+        },
+        {
+            "champion": "Gangplank",
+            "key": "41"
+        },
+        {
+            "champion": "Garen",
+            "key": "86"
+        },
+        {
+            "champion": "Gnar",
+            "key": "150"
+        },
+        {
+            "champion": "Gragas",
+            "key": "79"
+        },
+        {
+            "champion": "Graves",
+            "key": "104"
+        },
+        {
+            "champion": "Hecarim",
+            "key": "120"
+        },
+        {
+            "champion": "Heimerdinger",
+            "key": "74"
+        },
+        {
+            "champion": "Illaoi",
+            "key": "420"
+        },
+        {
+            "champion": "Irelia",
+            "key": "39"
+        },
+        {
+            "champion": "Ivern",
+            "key": "427"
+        },
+        {
+            "champion": "Janna",
+            "key": "40"
+        },
+        {
+            "champion": "JarvanIV",
+            "key": "59"
+        },
+        {
+            "champion": "Jax",
+            "key": "24"
+        },
+        {
+            "champion": "Jayce",
+            "key": "126"
+        },
+        {
+            "champion": "Jhin",
+            "key": "202"
+        },
+        {
+            "champion": "Jinx",
+            "key": "222"
+        },
+        {
+            "champion": "Kaisa",
+            "key": "145"
+        },
+        {
+            "champion": "Kalista",
+            "key": "429"
+        },
+        {
+            "champion": "Karma",
+            "key": "43"
+        },
+        {
+            "champion": "Karthus",
+            "key": "30"
+        },
+        {
+            "champion": "Kassadin",
+            "key": "38"
+        },
+        {
+            "champion": "Katarina",
+            "key": "55"
+        },
+        {
+            "champion": "Kayle",
+            "key": "10"
+        },
+        {
+            "champion": "Kayn",
+            "key": "141"
+        },
+        {
+            "champion": "Kennen",
+            "key": "85"
+        },
+        {
+            "champion": "Khazix",
+            "key": "121"
+        },
+        {
+            "champion": "Kindred",
+            "key": "203"
+        },
+        {
+            "champion": "Kled",
+            "key": "240"
+        },
+        {
+            "champion": "KogMaw",
+            "key": "96"
+        },
+        {
+            "champion": "Leblanc",
+            "key": "7"
+        },
+        {
+            "champion": "LeeSin",
+            "key": "64"
+        },
+        {
+            "champion": "Leona",
+            "key": "89"
+        },
+        {
+            "champion": "Lissandra",
+            "key": "127"
+        },
+        {
+            "champion": "Lucian",
+            "key": "236"
+        },
+        {
+            "champion": "Lulu",
+            "key": "117"
+        },
+        {
+            "champion": "Lux",
+            "key": "99"
+        },
+        {
+            "champion": "Malphite",
+            "key": "54"
+        },
+        {
+            "champion": "Malzahar",
+            "key": "90"
+        },
+        {
+            "champion": "Maokai",
+            "key": "57"
+        },
+        {
+            "champion": "MasterYi",
+            "key": "11"
+        },
+        {
+            "champion": "MissFortune",
+            "key": "21"
+        },
+        {
+            "champion": "MonkeyKing",
+            "key": "62"
+        },
+        {
+            "champion": "Mordekaiser",
+            "key": "82"
+        },
+        {
+            "champion": "Morgana",
+            "key": "25"
+        },
+        {
+            "champion": "Nami",
+            "key": "267"
+        },
+        {
+            "champion": "Nasus",
+            "key": "75"
+        },
+        {
+            "champion": "Nautilus",
+            "key": "111"
+        },
+        {
+            "champion": "Neeko",
+            "key": "518"
+        },
+        {
+            "champion": "Nidalee",
+            "key": "76"
+        },
+        {
+            "champion": "Nocturne",
+            "key": "56"
+        },
+        {
+            "champion": "Nunu",
+            "key": "20"
+        },
+        {
+            "champion": "Olaf",
+            "key": "2"
+        },
+        {
+            "champion": "Orianna",
+            "key": "61"
+        },
+        {
+            "champion": "Ornn",
+            "key": "516"
+        },
+        {
+            "champion": "Pantheon",
+            "key": "80"
+        },
+        {
+            "champion": "Poppy",
+            "key": "78"
+        },
+        {
+            "champion": "Pyke",
+            "key": "555"
+        },
+        {
+            "champion": "Qiyana",
+            "key": "246"
+        },
+        {
+            "champion": "Quinn",
+            "key": "133"
+        },
+        {
+            "champion": "Rakan",
+            "key": "497"
+        },
+        {
+            "champion": "Rammus",
+            "key": "33"
+        },
+        {
+            "champion": "RekSai",
+            "key": "421"
+        },
+        {
+            "champion": "Renekton",
+            "key": "58"
+        },
+        {
+            "champion": "Rengar",
+            "key": "107"
+        },
+        {
+            "champion": "Riven",
+            "key": "92"
+        },
+        {
+            "champion": "Rumble",
+            "key": "68"
+        },
+        {
+            "champion": "Ryze",
+            "key": "13"
+        },
+        {
+            "champion": "Sejuani",
+            "key": "113"
+        },
+        {
+            "champion": "Senna",
+            "key": "235"
+        },
+        {
+            "champion": "Shaco",
+            "key": "35"
+        },
+        {
+            "champion": "Shen",
+            "key": "98"
+        },
+        {
+            "champion": "Shyvana",
+            "key": "102"
+        },
+        {
+            "champion": "Singed",
+            "key": "27"
+        },
+        {
+            "champion": "Sion",
+            "key": "14"
+        },
+        {
+            "champion": "Sivir",
+            "key": "15"
+        },
+        {
+            "champion": "Skarner",
+            "key": "72"
+        },
+        {
+            "champion": "Sona",
+            "key": "37"
+        },
+        {
+            "champion": "Soraka",
+            "key": "16"
+        },
+        {
+            "champion": "Swain",
+            "key": "50"
+        },
+        {
+            "champion": "Sylas",
+            "key": "517"
+        },
+        {
+            "champion": "Syndra",
+            "key": "134"
+        },
+        {
+            "champion": "TahmKench",
+            "key": "223"
+        },
+        {
+            "champion": "Taliyah",
+            "key": "163"
+        },
+        {
+            "champion": "Talon",
+            "key": "91"
+        },
+        {
+            "champion": "Taric",
+            "key": "44"
+        },
+        {
+            "champion": "Teemo",
+            "key": "17"
+        },
+        {
+            "champion": "Thresh",
+            "key": "412"
+        },
+        {
+            "champion": "Tristana",
+            "key": "18"
+        },
+        {
+            "champion": "Trundle",
+            "key": "48"
+        },
+        {
+            "champion": "Tryndamere",
+            "key": "23"
+        },
+        {
+            "champion": "TwistedFate",
+            "key": "4"
+        },
+        {
+            "champion": "Twitch",
+            "key": "29"
+        },
+        {
+            "champion": "Udyr",
+            "key": "77"
+        },
+        {
+            "champion": "Urgot",
+            "key": "6"
+        },
+        {
+            "champion": "Varus",
+            "key": "110"
+        },
+        {
+            "champion": "Vayne",
+            "key": "67"
+        },
+        {
+            "champion": "Veigar",
+            "key": "45"
+        },
+        {
+            "champion": "Velkoz",
+            "key": "161"
+        },
+        {
+            "champion": "Vi",
+            "key": "254"
+        },
+        {
+            "champion": "Viktor",
+            "key": "112"
+        },
+        {
+            "champion": "Vladimir",
+            "key": "8"
+        },
+        {
+            "champion": "Volibear",
+            "key": "106"
+        },
+        {
+            "champion": "Warwick",
+            "key": "19"
+        },
+        {
+            "champion": "Xayah",
+            "key": "498"
+        },
+        {
+            "champion": "Xerath",
+            "key": "101"
+        },
+        {
+            "champion": "XinZhao",
+            "key": "5"
+        },
+        {
+            "champion": "Yasuo",
+            "key": "157"
+        },
+        {
+            "champion": "Yorick",
+            "key": "83"
+        },
+        {
+            "champion": "Yuumi",
+            "key": "350"
+        },
+        {
+            "champion": "Zac",
+            "key": "154"
+        },
+        {
+            "champion": "Zed",
+            "key": "238"
+        },
+        {
+            "champion": "Ziggs",
+            "key": "115"
+        },
+        {
+            "champion": "Zilean",
+            "key": "26"
+        },
+        {
+            "champion": "Zoe",
+            "key": "142"
+        },
+        {
+            "champion": "Zyra",
+            "key": "143"
+        }
+    ]
+}
